@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.app.cold {
+  background-image: url("../src/assets/cold/cold\ \(6\).jpg");
+
+  animation: slideshow2 100s infinite ease-in-out;
+}
+@keyframes slideshow2 {
+  0% {
+    background-image: url("../src/assets/cold/cold\ \(1\).jpg");
+  }
+  10% {
+    background-image: url("../src/assets/cold/cold\ \(2\).jpg");
+  }
+  20% {
+    background-image: url("../src/assets/cold/cold\ \(3\).jpg");
+  }
+  30% {
+    background-image: url("../src/assets/cold/cold\ \(4\).jpg");
+  }
+  40% {
+    background-image: url("../src/assets/cold/cold\ \(5\).jpg");
+  }
+  50% {
+    background-image: url("../src/assets/cold/cold\ \(6\).jpg");
+  }
+  60% {
+    background-image: url("../src/assets/cold/cold\ \(7\).jpg");
+  }
+  70% {
+    background-image: url("../src/assets/cold/cold\ \(8\).jpg");
+  }
+  80% {
+    background-image: url("../src/assets/cold/cold\ \(9\).jpg");
+  }
+  90% {
+    background-image: url("../src/assets/cold/cold\ \(10\).jpg");
+  }
+  100% {
+    background-image: url("../src/assets/cold/cold\ \(7\).jpg");
+  }
+}
+.app {
+  animation: slideshow 160s infinite ease-in-out;
+  background-size: cover;
+  background-position: bottom;
+}
+@keyframes slideshow {
+  0% {
+    background-image: url("../src/assets/Warm/warm\ \(1\).jpg");
+  }
+  4% {
+    background-image: url("../src/assets/Warm/warm\ \(2\).jpg");
+  }
+  8% {
+    background-image: url("../src/assets/Warm/warm\ \(3\).jpg");
+  }
+  12% {
+    background-image: url("../src/assets/Warm/warm\ \(4\).jpg");
+  }
+  16% {
+    background-image: url("../src/assets/Warm/warm\ \(5\).jpg");
+  }
+  20% {
+    background-image: url("../src/assets/Warm/warm\ \(6\).jpg");
+  }
+  24% {
+    background-image: url("../src/assets/Warm/warm\ \(7\).jpg");
+  }
+  28% {
+    background-image: url("../src/assets/Warm/warm\ \(8\).jpg");
+  }
+  32% {
+    background-image: url("../src/assets/Warm/warm\ \(9\).jpg");
+  }
+  36% {
+    background-image: url("../src/assets/Warm/warm\ \(10\).jpg");
+  }
+  40% {
+    background-image: url("../src/assets/Warm/warm\ \(11\).jpg");
+  }
+  44% {
+    background-image: url("../src/assets/Warm/warm\ \(12\).jpg");
+  }
+  48% {
+    background-image: url("../src/assets/Warm/warm\ \(13\).jpg");
+  }
+  52% {
+    background-image: url("../src/assets/Warm/warm\ \(14\).jpg");
+  }
+  56% {
+    background-image: url("../src/assets/Warm/warm\ \(15\).jpg");
+  }
+  60% {
+    background-image: url("../src/assets/Warm/warm\ \(16\).jpg");
+  }
+  64% {
+    background-image: url("../src/assets/Warm/warm\ \(17\).jpg");
+  }
+  68% {
+    background-image: url("../src/assets/Warm/warm\ \(18\).jpg");
+  }
+  72% {
+    background-image: url("../src/assets/Warm/warm\ \(19\).jpg");
+  }
+  76% {
+    background-image: url("../src/assets/Warm/warm\ \(20\).jpg");
+  }
+  79% {
+    background-image: url("../src/assets/Warm/warm\ \(21\).jpg");
+  }
+  82% {
+    background-image: url("../src/assets/Warm/warm\ \(22\).jpg");
+  }
+  85% {
+    background-image: url("../src/assets/Warm/warm\ \(23\).jpg");
+  }
+  87% {
+    background-image: url("../src/assets/Warm/warm\ \(24\).jpg");
+  }
+  90% {
+    background-image: url("../src/assets/Warm/warm\ \(25\).jpg");
+  }
+  93% {
+    background-image: url("../src/assets/Warm/warm\ \(26\).jpg");
+  }
+  96% {
+    background-image: url("../src/assets/Warm/warm\ \(27\).jpg");
+  }
+  100% {
+    background-image: url("../src/assets/Warm/warm\ \(28\).jpg");
+  }
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgb(225, 225, 225, 0.5);
+  border-radius: 16px 16px 16px 16px;
+  margin-top: 5px;
+
+  box-shadow: 0px 5px rgb(0, 0, 0, 0.2);
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease-out;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(225, 225, 225, 0.75);
+}
+
+.location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgb(225, 225, 225, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-align: center;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.footer {
+  color: #00000088;
+  font-style: italic;
+  font-size: small;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.top-text {
+  color: #313131;
+  font-size: medium;
+  font-weight: 900px;
+  font-style: bold;
+  text-align: center;
+}
+
+.logo {
+  color: bisque;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(190, 162, 216);
+
+  font-family: cursive;
+}
